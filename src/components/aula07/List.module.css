@@ -1,0 +1,12 @@
+.ListContainer{
+  background-color: darkolivegreen;
+  color: greenyellow;
+  margin: auto;
+  padding: 5px;
+}
+
+.listContent{
+  color: lightpink;
+  border: 2px solid pink;
+  text-align: left;
+}
