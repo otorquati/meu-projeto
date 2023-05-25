@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
-import HelloWorld from './components/HelloWorld';
-import SayMyName from './components/aula05/SayMyName';
+import HelloWorld from './HelloWorld';
+import SayMyName from '../aula05/SayMyName';
 import './App.css';
 
 function App() {

@@ -1,7 +1,7 @@
 import React from 'react';
-import SayMyName from './components/aula05/SayMyName';
-import Pessoa from './components/aula05/Pessoa';
-import List from './components/aula08/List';
+import SayMyName from '../aula05/SayMyName';
+import Pessoa from '../aula05/Pessoa';
+import List from './List';
 
 import styles from './App.module.css';
 
