@@ -1,11 +1,10 @@
 import React from 'react';
+import styles from './Frases.module.css';
 
-import "./Frases.css";
-
-const Frases = () => {
+function Frases() {
   return ( 
-    <div className='Frases'>
-      <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non officia nihil repellat saepe harum, excepturi eaque odio, id eius ipsum explicabo doloribus modi omnis, vero nam facere cupiditate! Cum, accusamus.</h1>
+    <div className={styles.frasesContainer}>
+      <p className={styles.fraseContent}>Este é um componente com uma frase</p>
     </div>
    );
 }

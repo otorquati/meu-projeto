@@ -1,4 +1,4 @@
-.App {
+.AppContainer {
   text-align: center;
   background-color: #282c34;
   height: 100vh;
@@ -6,15 +6,15 @@
   margin: 0px 0px;
   padding: auto;
 }
-.App h1{
+.AppContent {
   color: aquamarine;
 }
 
-.App h2,p {
+/*.App h2,p {
   color: chartreuse;
-}
+}*/
 
-.App-logo {
+.Applogo {
   height: 40vmin;
   pointer-events: none;
 }

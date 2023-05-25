@@ -1,19 +1,15 @@
 import React from 'react';
 import SayMyName from './components/aula05/SayMyName';
 import Pessoa from './components/aula05/Pessoa';
-import Frases from './components/Frases'
 
-import styles from './App.module.css';
+import './App.css';
 
 
 function App(props) {
   const nome = 'Maria';
   return ( 
     <>
-    <div className={styles.AppContainer}>
-      <h1 className={styles.AppContent}>Testando CSS</h1>
-      <Frases />
-      <Frases />
+    <div className="App">
       <SayMyName nome="Osvaldo" />
       <SayMyName nome="João" />
       <SayMyName nome={nome} />
