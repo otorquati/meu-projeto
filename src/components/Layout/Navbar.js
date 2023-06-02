@@ -13,6 +13,9 @@ function Navbar() {
     <li className={styles.item}>
       <Link to="/Contato">Contato</Link>
     </li>
+    <li className={styles.item}>
+      <Link to="/Sobre">Sobre</Link>
+    </li>
   </ul>
   )
 }
