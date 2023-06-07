@@ -8,7 +8,7 @@ function Footer(){
       <li>
         <FaFacebook/>
       </li>
-      <li>
+      <li>ls
         <FaInstagram/>
       </li>
       <li>
